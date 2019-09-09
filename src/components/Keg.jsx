@@ -5,7 +5,7 @@ function Keg(props){
   return (
     <div>
       <h3>{props.name} - {props.brand}</h3>
-      <p><em>${props.price} - {props.abv}</em></p>
+      <p><em>${props.price} - {props.abv}%</em></p>
       <hr/>
     </div>
   );
